@@ -7,9 +7,18 @@ function app() {
 
 function nameEnter() {
     let name = document.getElementById("nameElement").value;
-    document.getElementById("res").innerHTML=name + " написал(а) сегодня сообщение";
+    document.getElementById("result").innerHTML="Привет " + name;
     console.log("Добро пожаловать, " + name + " !");
 }
+
+function messageEl() {
+    let message = document.getElementById("messageEl").value;
+    let name = document.getElementById("nameElement").value;
+    document.getElementById("result").innerText=name + "написал(а) " + message;
+    console.log("Добро пожаловать, " + name + " !");
+}
+
+
 
 
 

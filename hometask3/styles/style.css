@@ -5,7 +5,8 @@ html {
 body {
     background-color: darkkhaki;
     width: 600 px; 
-    border: 2 px solid white;
+    border: 10 px solid white;
+    margin:20px;
 }
 
 h1 {
@@ -24,6 +25,7 @@ main {
     background-color:wheat;
     padding: 10px;
     overflow: hidden;
+    margin:20px;
 }
 
 p.first {
@@ -59,4 +61,5 @@ ol {
 footer {
     font-family: 'Oswald', sans-serif;
     color: green;
+    margin:20px;
 }
